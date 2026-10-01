@@ -1,0 +1,7 @@
+version: 2
+# A module ships no lock file and pins azurerm with ~> 5.0, so this only raises a pull request for a new provider major.
+updates:
+  - package-ecosystem: terraform
+    directory: /
+    schedule:
+      interval: monthly
